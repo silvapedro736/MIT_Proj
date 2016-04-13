@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8025A3551C8389A400795E04 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8025A3541C8389A400795E04 /* Launch Screen.storyboard */; };
 		8098D2311C83275C00A9A5BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D2301C83275C00A9A5BA /* AppDelegate.swift */; };
 		8098D2331C83275C00A9A5BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D2321C83275C00A9A5BA /* ViewController.swift */; };
 		8098D2361C83275C00A9A5BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8098D2341C83275C00A9A5BA /* Main.storyboard */; };
 		8098D2381C83275C00A9A5BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8098D2371C83275C00A9A5BA /* Assets.xcassets */; };
-		8098D23B1C83275C00A9A5BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8098D2391C83275C00A9A5BA /* LaunchScreen.storyboard */; };
 		8098D2461C83275C00A9A5BA /* EF_OraganizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D2451C83275C00A9A5BA /* EF_OraganizerTests.swift */; };
 		8098D2511C83275C00A9A5BA /* EF_OraganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D2501C83275C00A9A5BA /* EF_OraganizerUITests.swift */; };
+		8098D25F1C834FDE00A9A5BA /* AnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D25E1C834FDE00A9A5BA /* AnnouncementsViewController.swift */; };
+		8098D2611C8354C700A9A5BA /* AnnouncementDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D2601C8354C700A9A5BA /* AnnouncementDetailViewController.swift */; };
+		8098D2631C83558100A9A5BA /* Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D2621C83558100A9A5BA /* Announcement.swift */; };
+		8098D2651C8355F000A9A5BA /* AnnoucementTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D2641C8355F000A9A5BA /* AnnoucementTableViewCell.swift */; };
+		8098D2671C83568100A9A5BA /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D2661C83568100A9A5BA /* DataSource.swift */; };
+		8098D26F1C836F9300A9A5BA /* JansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D26C1C836F9300A9A5BA /* JansViewController.swift */; };
+		8098D2701C836F9300A9A5BA /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D26D1C836F9300A9A5BA /* Language.swift */; };
+		8098D2711C836F9300A9A5BA /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8098D26E1C836F9300A9A5BA /* SaveData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8025A3541C8389A400795E04 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		8098D22D1C83275C00A9A5BA /* EF Oraganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EF Oraganizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8098D2301C83275C00A9A5BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8098D2321C83275C00A9A5BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8098D2351C83275C00A9A5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8098D2371C83275C00A9A5BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8098D23A1C83275C00A9A5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8098D23C1C83275C00A9A5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8098D2411C83275C00A9A5BA /* EF OraganizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EF OraganizerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8098D2451C83275C00A9A5BA /* EF_OraganizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EF_OraganizerTests.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		8098D24C1C83275C00A9A5BA /* EF OraganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EF OraganizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8098D2501C83275C00A9A5BA /* EF_OraganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EF_OraganizerUITests.swift; sourceTree = "<group>"; };
 		8098D2521C83275C00A9A5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8098D25E1C834FDE00A9A5BA /* AnnouncementsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementsViewController.swift; sourceTree = "<group>"; };
+		8098D2601C8354C700A9A5BA /* AnnouncementDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnouncementDetailViewController.swift; sourceTree = "<group>"; };
+		8098D2621C83558100A9A5BA /* Announcement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
+		8098D2641C8355F000A9A5BA /* AnnoucementTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnoucementTableViewCell.swift; sourceTree = "<group>"; };
+		8098D2661C83568100A9A5BA /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		8098D26C1C836F9300A9A5BA /* JansViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JansViewController.swift; sourceTree = "<group>"; };
+		8098D26D1C836F9300A9A5BA /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		8098D26E1C836F9300A9A5BA /* SaveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +115,18 @@
 			children = (
 				8098D2301C83275C00A9A5BA /* AppDelegate.swift */,
 				8098D2321C83275C00A9A5BA /* ViewController.swift */,
+				8098D2601C8354C700A9A5BA /* AnnouncementDetailViewController.swift */,
+				8098D25E1C834FDE00A9A5BA /* AnnouncementsViewController.swift */,
+				8098D2621C83558100A9A5BA /* Announcement.swift */,
+				8098D2661C83568100A9A5BA /* DataSource.swift */,
+				8098D2641C8355F000A9A5BA /* AnnoucementTableViewCell.swift */,
 				8098D2341C83275C00A9A5BA /* Main.storyboard */,
 				8098D2371C83275C00A9A5BA /* Assets.xcassets */,
-				8098D2391C83275C00A9A5BA /* LaunchScreen.storyboard */,
+				8098D26C1C836F9300A9A5BA /* JansViewController.swift */,
+				8098D26D1C836F9300A9A5BA /* Language.swift */,
+				8098D26E1C836F9300A9A5BA /* SaveData.swift */,
 				8098D23C1C83275C00A9A5BA /* Info.plist */,
+				8025A3541C8389A400795E04 /* Launch Screen.storyboard */,
 			);
 			path = "EF Oraganizer";
 			sourceTree = "<group>";
@@ -232,8 +256,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8098D23B1C83275C00A9A5BA /* LaunchScreen.storyboard in Resources */,
 				8098D2381C83275C00A9A5BA /* Assets.xcassets in Resources */,
+				8025A3551C8389A400795E04 /* Launch Screen.storyboard in Resources */,
 				8098D2361C83275C00A9A5BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8098D2701C836F9300A9A5BA /* Language.swift in Sources */,
+				8098D2671C83568100A9A5BA /* DataSource.swift in Sources */,
+				8098D2711C836F9300A9A5BA /* SaveData.swift in Sources */,
 				8098D2331C83275C00A9A5BA /* ViewController.swift in Sources */,
+				8098D2651C8355F000A9A5BA /* AnnoucementTableViewCell.swift in Sources */,
+				8098D25F1C834FDE00A9A5BA /* AnnouncementsViewController.swift in Sources */,
+				8098D2611C8354C700A9A5BA /* AnnouncementDetailViewController.swift in Sources */,
+				8098D2631C83558100A9A5BA /* Announcement.swift in Sources */,
 				8098D2311C83275C00A9A5BA /* AppDelegate.swift in Sources */,
+				8098D26F1C836F9300A9A5BA /* JansViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +334,6 @@
 				8098D2351C83275C00A9A5BA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8098D2391C83275C00A9A5BA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8098D23A1C83275C00A9A5BA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -399,10 +423,10 @@
 		8098D2561C83275C00A9A5BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "EF Oraganizer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PeJaNe.EF-Oraganizer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PeJaNe.EF-Organizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -410,10 +434,10 @@
 		8098D2571C83275C00A9A5BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "EF Oraganizer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.PeJaNe.EF-Oraganizer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PeJaNe.EF-Organizer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -485,6 +509,7 @@
 				8098D2571C83275C00A9A5BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8098D2581C83275C00A9A5BA /* Build configuration list for PBXNativeTarget "EF OraganizerTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +518,7 @@
 				8098D25A1C83275C00A9A5BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8098D25B1C83275C00A9A5BA /* Build configuration list for PBXNativeTarget "EF OraganizerUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +527,7 @@
 				8098D25D1C83275C00A9A5BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
